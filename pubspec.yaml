@@ -12,7 +12,10 @@ dependencies:
   flutter:
     sdk: flutter
   meta: '>=1.7.0 <2.0.0'
-  webview_flutter: ^4.10.0
+  webview_flutter:
+    git:
+      url: https://github.com/vudvv/webview_flutter
+      ref: 4.10.0
   webview_flutter_android: ^4.0.2
   webview_flutter_wkwebview: ^3.16.2
   url_launcher: ^6.3.1
