@@ -16,7 +16,10 @@ dependencies:
     git:
       url: https://github.com/vudvv/webview_flutter
       ref: 4.10.0
-  webview_flutter_android: ^4.0.2
+  webview_flutter_android:
+    git:
+      url: https://github.com/vudvv/webview_flutter_android
+      ref: 4.2.0
   webview_flutter_wkwebview: ^3.16.2
   url_launcher: ^6.3.1
   youtube_player_iframe_web: ^3.1.0
